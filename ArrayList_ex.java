@@ -75,13 +75,12 @@ class ArrayList_ex {
 		//  list2에서  list1에 포함된 객체들을 삭제한다. 
 		for(int i = list2.size()-1; i>= 0; i--) {
 			//list2의 원소를 가져와서,list1이 contains하고 있으면 list2에 해당 원소를 remove!
+			//1.get(i)로 list2에서 하나씩 꺼낸다.
+			//2.contains()로 꺼낸 객체가 list1에 있는지 확인한다.
+			//3.remove(i)로 해당 객체를 list2에서 삭제한다.
 			if(list1.contains(list2.get(i)))
 				list2.remove(i);
 		}
-//		for(int i= list2.size()-1; i >= 0; i--) {
-//			if(list1.contains(list2.get(i)))
-//				list2.remove(i);
-//		}
 		print(list1, list2);
 	} // main 끝 
 
