@@ -1,5 +1,5 @@
 # Java and OOP
-Learn Java syntax and methods and practice OOP.
+Learn Java syntax, methods and practice OOP.
 
 # OOP(Object-oriented Programming)
 1.Abstraction(추상화)
